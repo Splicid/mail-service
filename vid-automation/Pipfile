@@ -11,6 +11,8 @@ scipy = "*"
 gtts = "*"
 boto3 = "*"
 ibm-watson = "*"
+selenium = "*"
+python-dotenv = "*"
 
 [dev-packages]
 

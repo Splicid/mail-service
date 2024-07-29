@@ -1,5 +1,5 @@
 dependencies
 - pyttsx3 - Testing out IBM Watson
-- selenium
+- selenium - now
 - reddit api
 - youtube api maybe use selenium 
