@@ -12,16 +12,15 @@ from selenium.webdriver.common.by import By
 
 
 def main():
-    print(os.environ.get("TEXT_TO_SPEECH_APIKEY"))
-    # driver = webdriver.Firefox()
-    # driver.get("https://www.reddit.com/r/ProRevenge/")
-    # driver.find_element(By.CLASS_NAME, "absolute inset-0").click()
+    driver = webdriver.Firefox()
+    driver.get("https://www.reddit.com/r/ProRevenge/")
+    #driver.find_element(By.CLASS_NAME, "absolute inset-0").click()
 
-    # # Action mouse movement
-    # Action = webdriver.ActionChains
-
-    # Action(driver).move_to_element()
-
+    page = driver.find_elements(By.CLASS_NAME, "inset-0")
+    for pages in page:
+        print(pages)
+    # Action mouse movement
+    webdriver.ActionChains(driver).move_to_element(page).click().perform()
 def audio():
     authenticator = IAMAuthenticator(os.environ.get("TEXT_TO_SPEECH_APIKEY"), disable_ssl_verification=True)
     text_to_speech = TextToSpeechV1(
