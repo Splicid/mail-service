@@ -1,5 +1,0 @@
-dependencies
-- pyttsx3 - Testing out IBM Watson
-- selenium - now
-- reddit api
-- youtube api maybe use selenium 
