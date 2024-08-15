@@ -1,7 +1,5 @@
-import os
+import mongodb_test_insert
 from flask import Flask
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
 
 
 
@@ -12,7 +10,5 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 
-def database():
-    uri = f"mongodb+srv://luis1abreu11:{os.getenv("DB-PASSWORD")}@cluster0.f4werh5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-
-    client = MongoClient(uri)
+if __name__ == "main":
+    mongodb_test_insert.initilize()

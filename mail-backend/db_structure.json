@@ -1,0 +1,12 @@
+{
+    "email": "user@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "subscribed": True,
+    "preferences": {
+    "frequency": "weekly",
+    "topics": ["tech", "news"]
+    },
+    "createdAt": datetime.now(datetime.today),
+    "updatedAt": datetime.now(datetime.today)
+}
