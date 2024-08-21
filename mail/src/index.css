@@ -1,0 +1,8 @@
+@font-face {
+    font-family: SourceCodePro-Black;
+    src: url('../assets/Font/static/SourceCodePro-Black.ttf');
+}
+
+#root{
+    font-family: SourceCodePro-Black;
+}
