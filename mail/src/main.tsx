@@ -19,7 +19,6 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Main_Content />} />
         {/* <Route path="/about" element={<About />} /> */}
         <Route path="/signup" element={<Signup />} />
-        {/* Add more routes as needed */}
       </Routes>
     </Router>
   </StrictMode>,

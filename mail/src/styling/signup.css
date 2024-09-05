@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Full height for centering */
+    height: 100vh;
     width: 100%;
+    color: #fefefe;
 }
 
 .signup-box {
-    background-color: #333; /* Darker box */
+    background-color: #06191D;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
